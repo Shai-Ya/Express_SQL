@@ -1,5 +1,6 @@
 # Full-Stack-Tech-Support-Project
 Full Stack Tech Support Project with Express and MySQL
+
 Create database for the project using the following SQL code:
 CREATE DATABASE service;
 USE service;
