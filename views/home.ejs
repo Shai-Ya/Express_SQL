@@ -1,0 +1,20 @@
+<%-include ('head')%>
+  <body>
+    <div class="container">
+        <div>
+            <h1>We are here for you!</h1>
+            <p>Please specify your client ID and type of product. Our technical support representive will reach out to you soon.</p>
+            <form action="/service" method="POST">
+            <input name="request[client]" type="text" placeholder="ID" required>
+            <select name="request[product]" id="" required>
+                <option value="" disabled selected>Your Product</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Computer">Computer</option>
+                <option value="Television">Television</option>
+            </select>
+            <button>Submit</button>
+        </form>
+        </div>
+    </div>
+  </body>
+</html>

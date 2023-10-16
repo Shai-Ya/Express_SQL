@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1571079570759-8b8800f7c412?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80');
+    background-repeat: no-repeat;
+    background-position: center 16%;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+form {
+    border: none;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+    background: transparent;
+}
+
+input[type="text"], select, button {
+    font-size: inherit;
+    margin: 5px;
+    padding: 5px 10px;
+    height: 2em;
+    width: 12%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: rgb(93, 6, 93);
+}
+
+a {
+    color:white;
+}
